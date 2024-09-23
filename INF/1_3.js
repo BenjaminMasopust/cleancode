@@ -1,4 +1,4 @@
-// Definice třídy P
+// Definice třídy P (osoba)
 class P {
   // Konstruktor přijímá dva parametry: n (jméno) a a (věk)
   constructor(n, a) {
@@ -8,7 +8,7 @@ class P {
 
   // Metoda d vypíše do konzole větu s jménem a věkem osoby
   d() {
-      console.log(this.n + " is " + this.a + " years old."); // Vypíše "jméno je věk let starý."
+      console.log(`${this.n} je ${this.a} let starý.`); // Použití šablonových literálů pro lepší čitelnost
   }
 }
 
