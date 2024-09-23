@@ -4,13 +4,13 @@ function c(a, b) {
   let d = Math.sqrt(a * a + b * b);
 
   // Vypíšeme výsledek do konzole
-  console.log("The result is: " + d);
+  console.log("Výsledek je: " + d);
 
   // Vrátíme výsledek výpočtu
   return d;
 }
 
-// Proměnné x a y definují délky stran trojúhelníku
+// Proměnné x a y definují délky odvěsen trojúhelníku
 let x = 3;
 let y = 4;
 
@@ -18,4 +18,4 @@ let y = 4;
 let r = c(x, y);
 
 // Vypíšeme výsledek výpočtu do konzole
-console.log("Computed value: " + r);
+console.log("Vypočtená hodnota: " + r);
