@@ -1,7 +1,5 @@
 // Loop through the array of numbers
-for (let i = 0; i < numbers.length; i++) {
-  // Get the current number
-  let num = numbers[i];
+numbers.forEach(num => {
   // Print the number
-  console.log("Number: " + num);
-}
+  console.log(`Number: ${num}`);
+});
